@@ -19,7 +19,7 @@ body {
   font-weight: bold;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
-  display: flex;
+  display: inline-block;
   font-size: 4rem;
 }
 
@@ -29,11 +29,12 @@ body {
 }
 
 .banner {
-  display: flex;
   max-height: 500px;
+  position: relative;
 }
 
 .banner-content {
   position: absolute;
   max-width: 50em;
+  bottom: 0;
 }
